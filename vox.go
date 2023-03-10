@@ -5,39 +5,6 @@ import (
 	"time"
 )
 
-// @title Vox
-// @version 1.0.0
-// @description A simple pub/sub library for Go
-// @author Gaurish Sethia
-// @example
-// package main
-//
-// import (
-// 	"fmt"
-//
-// 	"github.com/gaurishhs/vox"
-// )
-//
-// func main() {
-// 	// Create a new publisher
-// 	publisher := vox.NewPublisher()
-// 	// Create a new subscriber
-// 	subscriber := vox.NewSubscriber()
-// 	// Subscribe to a topic
-// 	subscriber.Subscribe("topic1")
-// 	// Add the subscriber to the publisher
-// 	publisher.AddSubscriber(subscriber)
-// 	// Publish a message to the topic
-// 	publisher.Publish(vox.NewMessage("topic1", map[string]interface{}{
-// 		"message": "Hello World!",
-// 	}))
-// 	// Listen for messages on the messages channel
-// 	subscriber.Listen(func(msg *vox.Message) {
-// 		fmt.Println(msg.Topic)
-// 		fmt.Println(msg.Payload["message"])
-// 	})
-// }
-
 // Message represents a message published to a topic
 type Message struct {
 	// The topic the message is published to
