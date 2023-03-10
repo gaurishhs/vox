@@ -1,5 +1,7 @@
 # Vox 
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/gaurishhs/vox)](https://goreportcard.com/report/github.com/gaurishhs/vox)
+
 Simple pub/sub library for Golang 
 
 ## Installation
